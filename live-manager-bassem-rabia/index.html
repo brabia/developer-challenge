@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Live Manager Statistics</title>  
+		<link rel="stylesheet" type="text/css" href="css/jchartfx.css" />
+        <link href="css/liveManager.css" rel="stylesheet" media="screen">
+    </head> 
+    <body>  
+		
+		<div id="LiveManager"> 
+			<div class="LiveManagerContainer"> 
+				<div id="LiveManagerChart">
+					<div id="ChartDiv1" class="FullChart" style="width:500px;height:375px;display:inline-block"></div> 
+					<div id="ChartDiv2" class="Chart" style="width:500px;height:375px;display:inline-block"></div> 
+					<div id="ChartDiv3" class="Chart" style="width:500px;height:375px;display:inline-block"></div> 
+				</div> 
+				<div id="LiveManagerMenu">
+					<ul id="LiveManagerActions" >
+						<li class="LiveManagerMenuTitle">Action</li> 
+						<div class="LiveManagerMenuItems LiveManagerMenuActions"> 
+						</div>
+						<li class="LiveManagerMenuTitle">General Datas</li>  
+						<div class="LiveManagerMenuItems LiveManagerMenuData"></div> 
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/jchartfx.system.js"></script>
+		<script type="text/javascript" src="js/jchartfx.coreVector.js"></script>
+		<script type="text/javascript" src="js/jchartfx.animation.js"></script>
+		<script type="text/javascript" src="js/jchartfx.advanced.js"></script>
+		<script type="text/javascript" src="js/jchartfx.equalizer.js"></script>
+		<script type="text/javascript" src="js/jchartfx.rose.js"></script>
+		<script src="js/liveManager.js"></script> 
+    </body> 
+</html>

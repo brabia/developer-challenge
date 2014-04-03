@@ -1,0 +1,123 @@
+/** 
+	@ ------------------------------------------------------
+	@	Live Manager 1.0
+	@ ------------------------------------------------------ 
+	
+	@ 	Project Name: Live Manager 
+	@ 	Description: Istanbul Turkey
+	@ 	Project URI: --
+	@ 	Version: 1.0 
+	@ 	Author: Live Manager 
+**/ 
+
+/** 
+= BODY
+------------------------------------------------------**/
+body{  
+	background: none repeat scroll 0 0 #F9F9F9; 
+    font-size: 14px;
+	font-family: "myriad-pro",sans-serif;
+    margin: 0 auto ;  
+    padding: 0;
+}
+/** 
+= LIVE MANAGER LOGO
+------------------------------------------------------**/
+#LiveManagerLogo, .LiveManagerLogo{
+	background:url(../images/logo.png) no-repeat center; 
+    height: 120px;
+	
+}	
+/** 
+= LIVE MANAGER
+------------------------------------------------------**/
+#LiveManager{  
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BFBFBF;
+    margin: 10px auto 0;
+    width: 80%; 
+}
+/** 
+= LIVE MANAGER CONTAINER
+------------------------------------------------------**/
+#LiveManager .LiveManagerContainer{
+	background: none repeat scroll 0 0 #FFFFFF; 
+    overflow: auto;
+    padding: 20px;
+}
+/** 
+= LIVE MANAGER FIXED
+------------------------------------------------------**/
+#LiveManagerFixed{
+	background: none repeat scroll 0 0 #225A8B;  
+}
+/** 
+= LIVE MANAGER MENU
+------------------------------------------------------**/
+#LiveManagerMenu{
+	float: left;
+    margin-right: 10px;
+    width: 20% !important;
+}
+#LiveManagerMenu ul{  
+    background: none repeat scroll 0 0 #F9F9F9; 
+    border-radius: 3px; 
+    margin: 0 auto;
+    padding: 0;
+}
+#LiveManagerMenu ul .LiveManagerMenuItems{   
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    margin-bottom: 15px; 
+}
+#LiveManagerMenu ul li{  
+	list-style: none outside none;
+}
+#LiveManagerMenu ul .LiveManagerMenuTitle{   
+	background: none repeat scroll 0 0 #225A8B;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 3px 3px 0 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+} 
+#LiveManagerMenu ul .LiveManagerMenuItem{  
+	background: none repeat scroll 0 0 #F9F9F9;
+    font-size: 14px;
+    padding: 5px 5px 5px 25px;
+}
+#LiveManagerMenu ul .LiveManagerMenuItem .LiveManagerMenuItemOccu{   
+    display: inline-block;
+    float: right; 
+    text-align: center; 
+} 
+#LiveManagerMenu ul .LiveManagerMenuItem:hover{  
+	background: none repeat scroll 0 0 #3373aa; 
+	color:#fff; 
+    cursor: pointer;
+} 
+/** 
+= LIVE MANAGER CHART
+------------------------------------------------------**/
+#LiveManagerChart{
+	float: right;
+    width: 75% !important;
+}
+#LiveManagerChart .FullChart{ 
+    width: 100% !important;
+}
+#LiveManagerChart .Chart{ 
+    width: 49% !important;
+}
+/** 
+= CHART
+------------------------------------------------------**/
+#chart .SpecialCondition {
+	stroke: #FF0040;
+}
+
+#chart .SpecialConditionLine {
+	stroke: #FF0040;
+}
